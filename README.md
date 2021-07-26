@@ -1,5 +1,5 @@
 # algoritmos-e-estruturas
-![](C:\Users\beatr\Documents\GitHub\algoritmos-e-estruturas\Azul e Dourado Brinde Ano Novo Cartão.gif)
+![](https://raw.githubusercontent.com/biangomes/algoritmos-e-estruturas/main/visitcard.gif)
 
 Repositório utilizado para armazenar as anotações e códigos do estudo sobre **algoritmos**, **estruturas de dados** e **resolução de problemas** utilizando Python.
 
