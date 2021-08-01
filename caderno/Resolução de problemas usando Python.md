@@ -52,3 +52,20 @@ As classes são análogas aos tipos de dados abstratos, porque um usuário de um
 
 Existem duas classes numéricas nativas no python, que implementam os tipos inteiro e ponto flutuante. Essas classes são chamadas de `int`e `float`. As operações aritméticas padrão são: +, -, *, / e **. Outras úteis são: %, módulo; //, divisão inteira. 
 
+##### 1.8.2 Tipos de dados coletivos nativos
+
+Além dos tipos de dados comuns como `int`,`float`, `bool`, o Python fornece outros tipos de dados muito poderosos para coleções. São eles: listas (`list`), tuplas (`tuples`) e strings (`str`). Estas coleções são **coleções ordenadas**, são semelhantes entre si, porém possuem diferenças fundamentais que devem ser compreendidas para guiar melhor o uso. Já as coleções **não-ordenadas** são compostas por dicionários (`dict`) e conjuntos (`sets`).
+
+---
+
+As listas (`lists`) são uma coleção ordenadas de zero ou mais referências a objetos de dados em python, além de ser **heterogênea**. A sintaxe é delimitada por colchetes e separada por vírgulas. Por exemplo:
+
+```python
+minhaLista = [1, 3, True, 6.5]
+>>> minhaLista
+[1, 3, True, 6.5]
+>>> [1, 3, False, 7.5]
+[1, 3, False, 7.5]
+```
+
+Como as listas são sequencias ordenadas, elas suportam um número de operações de Python que pode ser aplicado a qualquer outra sequência.
